@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# production
+/dist
+/build
+
+# misc
+.DS_Store
+*.local
+.env
+.vercel

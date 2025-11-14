@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-300px * 6)); 
+    }
+  }
+  
+  .animate-marquee {
+    animation: marquee 20s linear infinite; 
+  }
+
+  *{
+    font-family: "Montserrat", sans-serif;
+  
+  }
+  
